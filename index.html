@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Management App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo">
+            <h1>Task Management</h1>
+        </div>
+        <!-- Dark Mode Button -->
+        <!-- <div class="btn"><button id="themeToggle" onclick="toggleTheme()">
+                🌙 Dark Mode
+            </button>
+        </div> -->
+    </nav>
+
+
+    <div class="container">
+        <!-- Authentication Section -->
+        <div id="authSection" class="card">
+
+            <h2>Register Yourself</h2>
+
+            <input type="text" id="username" placeholder="Enter Username">
+
+            <button onclick="login()">
+                Get Started
+            </button>
+
+        </div>
+
+        <!-- Dashboard -->
+        <div id="dashboard" class="hidden">
+
+            <div class="header">
+
+                <h2>
+                    Welcome,
+                    <span id="userDisplay"></span>
+                </h2>
+
+                <button onclick="logout()">
+                    Exit
+                </button>
+
+            </div>
+
+            <div class="task-form">
+
+                <input type="text" id="taskTitle" placeholder="Task Title">
+
+                <textarea id="taskDesc" placeholder="Task Description"></textarea>
+
+                <button onclick="saveTask()">
+                    Save Task
+                </button>
+
+            </div>
+
+            <div id="taskList"></div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
