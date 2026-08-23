@@ -16,26 +16,81 @@ body{
     padding:20px;
 }
 
-nav{
-    
-    padding: 0;
-    margin: 0;
-    max-width: 100%;
+.navbar {
+    position: fixed;
+
+    top: 20px;
+    left: 50%;
+
+    width: 90%;
+    max-width: 1100px;
+
+    padding: 15px 30px;
+
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    background-color: #96cbe8;
-    height: 50px;
-    width: 100%;
+
+    background: #000000;
+    color: white;
+    backdrop-filter: blur(15px);
+
+    border-radius: 50px;
+
+    box-shadow: 10px 10px 70px #00000044;
+
+    /* Center the navbar */
+    transform: translateX(-50%);
+
+    animation: anime 0.5s ease forwards;
 }
 
-nav h1{
-    color: #ccc;
-    margin-left: 10px;
-    transition: 0.3s;
+
+/* NAVIGATION LINKS */
+
+.navlinks {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    list-style: none;
 }
 
-nav h1:hover{
-    color: #908c8c;
+.navlinks li:hover{
+    transform: scale(1.2);
+}
+
+.navlinks li {
+    list-style: none;
+}
+
+.navlinks a {
+    text-decoration: none;
+    color: rgb(232, 223, 223);
+}
+
+
+/* LOGO */
+
+.logo {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+
+/* ANIMATION */
+
+@keyframes anime {
+
+    from {
+        opacity: 0;
+        transform: translate(-50%, -40px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate(-50%, 0);
+    }
+
 }
 
 .container{
