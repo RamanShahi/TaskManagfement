@@ -500,6 +500,27 @@ body.dark-theme button {
     color: white;
 }
 
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.footer-links {
+    margin: 20px 0;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.footer-links a:hover {
+    color: #00bcd4;
+}
+
 
 /* =========================
    MOBILE RESPONSIVE
