@@ -16,6 +16,7 @@ body{
     padding:20px;
 }
 
+
 .navbar {
     position: fixed;
 
@@ -31,7 +32,7 @@ body{
     align-items: center;
     justify-content: space-between;
 
-    background: #000000;
+    background: rgb(56, 52, 52);
     color: white;
     backdrop-filter: blur(15px);
 
@@ -115,14 +116,12 @@ body{
     font-family: Arial, sans-serif;
 }
 
-/* =========================
-   BODY
-========================= */
+/* ========================= BODY ========================= */
 
 body {
     min-height: 100vh;
 
-    background-image: url("https://i.pinimg.com/736x/01/e4/86/01e4863787e4c3773d2f433fd9433595.jpg");
+    background-image: url("https://images.pexels.com/photos/301717/pexels-photo-301717.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -132,15 +131,14 @@ body {
 }
 
 
-/* =========================
-   TOP NAV / HEADER
-========================= */
+/* =========================   TOP NAV / HEADER  ========================= */
 
-/* First container is used as the top navigation bar */
+
 body > .container:first-child {
     width: 100%;
     max-width: none;
 
+    position: sticky;
     height: 68px;
 
     margin: 0;
@@ -156,9 +154,7 @@ body > .container:first-child {
 }
 
 
-/* =========================
-   THEME BUTTON
-========================= */
+/* =========================   THEME BUTTON   ========================= */
 
 #themeToggle {
     position: fixed;
@@ -188,9 +184,7 @@ body > .container:first-child {
 }
 
 
-/* =========================
-   MAIN CONTAINER
-========================= */
+/* =========================   MAIN CONTAINER   ========================= */
 
 body > .container:nth-of-type(2) {
     width: 90%;
@@ -202,9 +196,7 @@ body > .container:nth-of-type(2) {
 }
 
 
-/* =========================
-   AUTH SECTION
-========================= */
+/* =========================   AUTH SECTION    ========================= */
 
 #authSection h2 {
     color: rgb(5, 46, 179);
@@ -223,13 +215,11 @@ body > .container:nth-of-type(2) {
 
     border-radius: 10px;
 
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 4);
 }
 
 
-/* =========================
-   HIDDEN
-========================= */
+/* =========================   HIDDEN   ========================= */
 
 .hidden {
     display: none;
@@ -237,9 +227,7 @@ body > .container:nth-of-type(2) {
 
 
 
-/* =========================
-   HEADINGS
-========================= */
+/* =========================   HEADINGS   ========================= */
 
 h2 {
     margin-top: 40px;
@@ -247,9 +235,7 @@ h2 {
 }
 
 
-/* =========================
-   INPUTS
-========================= */
+/* =========================   INPUTS   ========================= */
 
 input,
 textarea {
@@ -276,9 +262,7 @@ textarea:focus {
 }
 
 
-/* =========================
-   TEXTAREA
-========================= */
+/* =========================   TEXTAREA   ========================= */
 
 textarea {
     resize: none;
@@ -287,9 +271,7 @@ textarea {
 }
 
 
-/* =========================
-   BUTTONS
-========================= */
+/* =========================   BUTTONS   ========================= */
 
 button {
     padding: 10px 20px;
@@ -314,9 +296,7 @@ button:hover {
 }
 
 
-/* =========================
-   DASHBOARD HEADER
-========================= */
+/* =========================   DASHBOARD HEADER   ========================= */
 
 .header {
     display: flex;
@@ -339,9 +319,7 @@ button:hover {
     margin-top: 0;
 }
 
-/* =========================
-   TASK FORM
-========================= */
+/* =========================   TASK FORM   ========================= */
 
 .task-form {
     background: rgb(156, 147, 147);
@@ -356,9 +334,7 @@ button:hover {
 }
 
 
-/* =========================
-   TASK
-========================= */
+/* =========================   TASK   ========================= */
 
 .task {
     background: rgba(255, 255, 255, 0.95);
@@ -379,9 +355,7 @@ button:hover {
 }
 
 
-/* =========================
-   ACTION BUTTONS
-========================= */
+/* =========================   ACTION BUTTONS   ========================= */
 
 .actions {
     margin-top: 10px;
@@ -424,9 +398,7 @@ button:hover {
 }
 
 
-/* =========================
-   NAV
-========================= */
+/* =========================   NAV   ========================= */
 
 nav {
     padding: 0;
@@ -443,15 +415,13 @@ nav {
 
     align-items: center;
 
-    background-color: #060607;
+    background-color: #B99A84;
 
     height: 68px;
 }
 
 
-/* =========================
-   DARK THEME
-========================= */
+/* =========================   DARK THEME   ========================= */
 
 body.dark-theme {
     background: #121212;
@@ -500,31 +470,8 @@ body.dark-theme button {
     color: white;
 }
 
-footer {
-    background-color: #222;
-    color: white;
-    text-align: center;
-    padding: 30px 20px;
-}
 
-.footer-links {
-    margin: 20px 0;
-}
-
-.footer-links a {
-    color: white;
-    text-decoration: none;
-    margin: 0 15px;
-}
-
-.footer-links a:hover {
-    color: #00bcd4;
-}
-
-
-/* =========================
-   MOBILE RESPONSIVE
-========================= */
+/* =========================   MOBILE RESPONSIVE   ========================= */
 
 @media (max-width: 768px) {
 
@@ -568,9 +515,7 @@ footer {
 }
 
 
-/* =========================
-   SMALL MOBILE SCREEN
-========================= */
+/* =========================   SMALL MOBILE SCREEN   ========================= */
 
 @media (max-width: 480px) {
 
