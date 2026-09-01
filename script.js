@@ -208,14 +208,14 @@ if(currentUser){
     showDashboard();
 }
 
-function toggleTheme() {
-    document.body.classList.toggle("dark-theme");
+// function toggleTheme() {
+//     document.body.classList.toggle("dark-theme");
 
-    const btn = document.getElementById("themeToggle");
+//     const btn = document.getElementById("themeToggle");
 
-    if (document.body.classList.contains("dark-theme")) {
-        btn.innerHTML = "☀️ Light Mode";
-    } else {
-        btn.innerHTML = "🌙 Dark Mode";
-    }
-}
+//     if (document.body.classList.contains("dark-theme")) {
+//         btn.innerHTML = "☀️ Light Mode";
+//     } else {
+//         btn.innerHTML = "🌙 Dark Mode";
+//     }
+// }
